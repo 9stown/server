@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "1d3af6ef-61a0-446d-a4a8-4a2a371770df",
+    "name": "9stown",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

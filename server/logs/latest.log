@@ -1,70 +1,50 @@
-[07:23:49] [main/INFO]: Loading Minecraft 1.14.1 with Fabric Loader 0.17.3
-[07:23:49] [main/INFO]: Loading 4 mods:
+[11:43:17] [main/INFO]: Loading Minecraft 1.14.1 with Fabric Loader 0.17.3
+[11:43:17] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.17.3
 	   \-- mixinextras 0.5.0
 	- java 21
 	- minecraft 1.14.1
-[07:23:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[07:23:52] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[07:23:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07:23:52] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07:23:52] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[07:23:52] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[07:23:52] [Server thread/INFO]: Starting minecraft server version 1.14.1
-[07:23:52] [Server thread/INFO]: Loading properties
-[07:23:52] [Server thread/INFO]: Default game type: SURVIVAL
-[07:23:52] [Server thread/INFO]: Generating keypair
-[07:23:53] [Server thread/INFO]: Starting Minecraft server on *:25565
-[07:23:53] [Server thread/INFO]: Using epoll channel type
-[07:23:53] [Server thread/INFO]: Preparing level "world"
-[07:23:53] [Server thread/INFO]: Found new data pack vanilla, loading it automatically
-[07:23:53] [Server thread/INFO]: Reloading ResourceManager: Default
-[07:24:03] [Server thread/INFO]: Loaded 6 recipes
-[07:24:04] [Server thread/INFO]: Loaded 811 advancements
-[07:24:04] [Server thread/WARN]: Unable to find spawn biome
-[07:24:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[07:24:06] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[07:24:07] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[07:24:07] [Server-Worker-2/INFO]: Preparing spawn area: 0%
-[07:24:08] [Server-Worker-3/INFO]: Preparing spawn area: 0%
-[07:24:08] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[07:24:09] [Server-Worker-1/INFO]: Preparing spawn area: 0%
-[07:24:09] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[07:24:10] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[07:24:10] [Server-Worker-1/INFO]: Preparing spawn area: 1%
-[07:24:11] [Server-Worker-3/INFO]: Preparing spawn area: 5%
-[07:24:11] [Server-Worker-1/INFO]: Preparing spawn area: 5%
-[07:24:12] [Server-Worker-3/INFO]: Preparing spawn area: 10%
-[07:24:12] [Server-Worker-1/INFO]: Preparing spawn area: 11%
-[07:24:13] [Server-Worker-2/INFO]: Preparing spawn area: 13%
-[07:24:13] [Server-Worker-2/INFO]: Preparing spawn area: 16%
-[07:24:14] [Server-Worker-2/INFO]: Preparing spawn area: 18%
-[07:24:14] [Server-Worker-1/INFO]: Preparing spawn area: 21%
-[07:24:15] [Server-Worker-2/INFO]: Preparing spawn area: 22%
-[07:24:15] [Server-Worker-2/INFO]: Preparing spawn area: 22%
-[07:24:16] [Server-Worker-1/INFO]: Preparing spawn area: 27%
-[07:24:16] [Server-Worker-2/INFO]: Preparing spawn area: 30%
-[07:24:17] [Server-Worker-1/INFO]: Preparing spawn area: 32%
-[07:24:18] [Server-Worker-2/INFO]: Preparing spawn area: 35%
-[07:24:18] [Server-Worker-1/INFO]: Preparing spawn area: 38%
-[07:24:18] [Server-Worker-2/INFO]: Preparing spawn area: 41%
-[07:24:19] [Server-Worker-3/INFO]: Preparing spawn area: 44%
-[07:24:20] [Server-Worker-2/INFO]: Preparing spawn area: 48%
-[07:24:20] [Server-Worker-1/INFO]: Preparing spawn area: 51%
-[07:24:20] [Server-Worker-1/INFO]: Preparing spawn area: 56%
-[07:24:21] [Server-Worker-3/INFO]: Preparing spawn area: 57%
-[07:24:21] [Server-Worker-2/INFO]: Preparing spawn area: 61%
-[07:24:22] [Server-Worker-1/INFO]: Preparing spawn area: 65%
-[07:24:22] [Server-Worker-1/INFO]: Preparing spawn area: 68%
-[07:24:23] [Server-Worker-2/INFO]: Preparing spawn area: 70%
-[07:24:24] [Server-Worker-2/INFO]: Preparing spawn area: 72%
-[07:24:24] [Server-Worker-1/INFO]: Preparing spawn area: 74%
-[07:24:24] [Server-Worker-3/INFO]: Preparing spawn area: 79%
-[07:24:25] [Server-Worker-1/INFO]: Preparing spawn area: 83%
-[07:24:26] [Server-Worker-3/INFO]: Preparing spawn area: 84%
-[07:24:26] [Server-Worker-1/INFO]: Preparing spawn area: 89%
-[07:24:27] [Server-Worker-3/INFO]: Preparing spawn area: 89%
-[07:24:27] [Server-Worker-3/INFO]: Preparing spawn area: 89%
-[07:24:28] [Server-Worker-2/INFO]: Preparing spawn area: 99%
-[07:24:28] [Server thread/INFO]: Time elapsed: 21131 ms
-[07:24:28] [Server thread/INFO]: Done (34.675s)! For help, type "help"
+[11:43:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[11:43:20] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:43:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:43:20] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:43:20] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[11:43:20] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[11:43:20] [Server thread/INFO]: Starting minecraft server version 1.14.1
+[11:43:20] [Server thread/INFO]: Loading properties
+[11:43:20] [Server thread/INFO]: Default game type: SURVIVAL
+[11:43:20] [Server thread/INFO]: Generating keypair
+[11:43:20] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:43:21] [Server thread/INFO]: Using epoll channel type
+[11:43:21] [Server thread/INFO]: Preparing level "world"
+[11:43:21] [Server thread/INFO]: Reloading ResourceManager: Default
+[11:43:31] [Server thread/INFO]: Loaded 6 recipes
+[11:43:32] [Server thread/INFO]: Loaded 811 advancements
+[11:43:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:43:32] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[11:43:34] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[11:43:34] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[11:43:34] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[11:43:34] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[11:43:34] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[11:43:35] [Server-Worker-2/INFO]: Preparing spawn area: 46%
+[11:43:35] [Server-Worker-1/INFO]: Preparing spawn area: 69%
+[11:43:36] [Server-Worker-3/INFO]: Preparing spawn area: 73%
+[11:43:36] [Server-Worker-1/INFO]: Preparing spawn area: 83%
+[11:43:37] [Server-Worker-2/INFO]: Preparing spawn area: 83%
+[11:43:37] [Server-Worker-3/INFO]: Preparing spawn area: 85%
+[11:43:38] [Server-Worker-1/INFO]: Preparing spawn area: 88%
+[11:43:38] [Server-Worker-3/INFO]: Preparing spawn area: 92%
+[11:43:39] [Server-Worker-3/INFO]: Preparing spawn area: 94%
+[11:43:39] [Server-Worker-1/INFO]: Preparing spawn area: 94%
+[11:43:39] [Server thread/INFO]: Time elapsed: 7609 ms
+[11:43:39] [Server thread/INFO]: Done (18.465s)! For help, type "help"
+[11:47:07] [User Authenticator #1/INFO]: UUID of player 9stown is 1d3af6ef-61a0-446d-a4a8-4a2a371770df
+[11:47:07] [Server thread/INFO]: 9stown[/127.120.241.26:40667] logged in with entity id 115 at (-3.5, 63.0, -3.5)
+[11:47:07] [Server thread/INFO]: 9stown joined the game
+[11:47:30] [Server thread/INFO]: That player does not exist
+[11:47:35] [Server thread/INFO]: Made 9stown a server operator
+[11:47:40] [Server thread/INFO]: [9stown: Set own game mode to Creative Mode]
+[11:47:48] [Server thread/WARN]: 9stown moved too quickly! 1.7532778164019405,3.3750001341104507,-9.636913641458818
+[11:48:13] [Server thread/INFO]: 9stown lost connection: Disconnected
+[11:48:13] [Server thread/INFO]: 9stown left the game
